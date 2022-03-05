@@ -1,0 +1,164 @@
+.article{
+    position: relative;
+    &__content{
+        &__post{
+            position: relative;
+            background: var(--white);
+            &:after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 244px;
+                position: absolute;
+                top: 0  ;   
+                object-fit: cover;
+                background: linear-gradient(to bottom, rgba(black, 0) 50%, rgba(black,0.7));
+            }
+            img{
+                width: 100%;
+                height: 243px;
+                object-fit: cover;
+                overflow: hidden;
+            }   
+            &__detail{
+                top: -4.4em;
+                position: relative;
+                z-index: 2;
+                padding: 0 0.3em;
+                h1{
+                    margin: 0;
+                    color: white;
+                    font-weight: 300;
+                    top: -1.5em;
+                    position: relative;
+
+                }
+                h2{
+                    color: var(--black);
+                }
+                h3{
+                    color: var(--black);
+                }
+                .date{
+                    color: white;
+                    font-size: .8em;
+                    top: -3.5em;
+                    position: relative;
+                }
+                p{
+                    color:var(--black);
+                    font-size: 1.1em;
+                };
+            }
+        }
+        &__sidebar{
+            height: auto;
+            overflow: hidden;
+            position: relative;
+            h5{
+                    color: var(--whitegray);
+                    width: 100%;
+                    font-size: 1.3em;
+                    margin: .5em 0;
+                    padding: .2em 0;
+                    padding-left: 1em;
+                    background: var(--white);
+
+            }
+            
+            &__post{
+                float: left;
+                width: 100%;
+                img{
+                    width: 144px;
+                    height: 144px;
+                    float: left;
+                    object-fit: cover;
+                    border-radius: 0;
+                    overflow: hidden;
+                    }
+              
+                &__detail{
+                    border-bottom: 2px solid #80808063;
+                    object-fit: cover;
+                    overflow: hidden;
+                    background: var(--white);
+                    margin-bottom: 0.5em;
+                    height: 142px;
+                    padding: 0 .3em;
+                
+                    a{
+                        
+                        
+                        text-decoration: none;
+                        
+                        
+                    }
+                    h3{
+                        font-size: 1em;
+                        color: var(--black);
+                        font-weight: 500;
+                        margin: 0.1em 0.1em;
+                        float: left;
+                        line-height: 1.1em;
+                    }
+                   
+                    .date{
+                        font-size: .8em;
+                        color: var(--whitegray);
+                        font-weight: 600;
+                        padding: 0.1em;
+                        float: left;   
+                    }
+                    .view{
+                        width: 18px;
+                        height: 14px;
+                        align-items: center;
+                        margin-left: 1em;
+                        margin-top: 3px;
+                        padding: .2em;
+                    }
+                    span.view-count{
+                        font-size: .9em;
+                        padding: .8em;
+                        color: var(--grayBlue);
+                    }
+                    p{
+                        margin: 0;
+                        color: var(--whitegray);
+                        float: left;
+                        line-height: 1.1em;
+                    }
+                    .addtoany_share_save_container {
+                        display: none;
+                    }
+                    .addtoany_content
+                    {
+                        display: none;
+                    }   
+                }
+            }
+            
+        }
+    }
+    @media screen and (min-width: 768px){
+            
+        &__content{    
+            grid-template-columns: 890px 1fr ;
+            display: grid;
+           
+            &__post{
+                margin-right: 1em;
+                img{
+                    width: 100%;
+                    height: 433px;
+                }
+                &:after {
+                    height: 433px;
+                }
+            }
+            
+        }
+    }
+
+}

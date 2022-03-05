@@ -1,0 +1,369 @@
+/*
+* Class Name: JugosNutritivos
+* Description: Tema CuscoUp
+* Author: @elarsoft
+* License URI: -_-
++ v1.
+/´+++++++++++++++++++++++++++*/
+.text_slider h2{
+	position: relative;
+	top: -4em;
+}
+.slide_home{
+	height: 500px;
+}
+/******************************  menu*/
+nav li{
+	position: relative;
+	text-align: center;
+}
+nav li ul{
+	display: none;
+	position: absolute;
+	list-style: none;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+nav li:hover ul{
+	display: block;
+	top: 100%;
+background: #949494;
+}
+nav li ul li a{
+	text-decoration: none;
+	list-style: none;
+	padding: 0 1em;
+	width: 150px;
+}
+nav li ul li a:hover{
+	background: #e0e0e0;
+}
+nav a{
+	text-align: left;
+}
+nav{
+	background-color: grey !important;
+	
+}
+.navegacion{
+	z-index:1000;
+	max-width: 100%;
+	width: 100%;
+	background: white;
+}
+.navbar-light .navbar-brand{
+	margin-right: 500px;
+}
+/***************************titulo fondo****/
+.site_titulo{
+	color: #ce7f89;
+    position: absolute;
+    top: 6em;
+    width: auto;
+    padding: 0.1em;
+    margin-left: 3em;
+    background: #e7e9db;
+
+}
+.titulo_description{
+	color: #e49c3d;
+	position: absolute;
+    top: 11em;
+    padding: 0.1em;
+    margin-left: 3em;
+    background: #fbdbb4;
+}
+
+/*-------------------------blog-----*/
+.blog{
+	background: #dde1e7;
+	padding-top: 2em;
+
+}
+/*-------------------------------------------------blog-----------*/
+.logo{
+	margin: 0.2em 0;
+	float: left;
+	margin-left: 4em;
+}
+.blog h2{
+	text-align: left;
+    font-size: 1.6em;
+    position: relative;
+    margin-left: 1em;
+    margin-bottom: -2.6em;
+}
+.blog ul{
+	list-style: none;	
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+.blog ul li h2{
+	color: white;
+    line-height: 1em;
+}
+.blog ul li h2:hover{
+	color: #668fcc;
+}
+.blog ul li p{
+	position: relative;
+	color: #1b1a1a;
+    font-weight: bold;
+    background: #eeeeee;
+	padding: 0 0.3em;
+}
+.blog ul li img{
+	width: auto;
+}
+.blog ul li{
+	background: white;
+	-webkit-box-shadow: 0 1px 2px 0 #a1acbd;
+    box-shadow: 0 1px 2px 0 #a1acbd;
+
+}
+.text_destacado{
+	font-size: 1.6em;
+    color: #ebecef;
+    background: #04a30f;
+    padding: 0 1em;
+    text-align: center;
+}
+.blog ul li a{
+	color: #ffffff;
+}
+.blog ul li:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: 0.2s;
+}
+.blog-autor{
+	position: relative;
+	top: -1em;
+    width: 102px;
+	background: #0b6ce4;
+}
+.comments{
+	height: 15px;
+	max-width: 15px;
+	margin-left: 1em;
+}
+.views{
+	height: 20px;
+	max-width: 20px;
+	margin-left: 1em;
+}
+/*-------------------------------------------sLIDER-------*/
+.text_slider  img{
+	height: auto;
+	max-width: 100%;
+}
+/*------------------------------sugeridos-----------------------------------*/
+.sugeridos{
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.sugeridos h1{
+	font-size: 1.8em;
+}
+.sugeridos h4{
+	margin-bottom: 1em;
+}
+.sugeridos ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sugeridos ul li{
+	width: 33%;
+	display: inline-block;
+
+}
+.sugeridos ul li img{
+	border-radius: 1em 1em;
+}
+.sugeridos ul li h4{
+	position: relative;
+	top: -2em;
+	color: white;
+}
+.card ul li{
+	width: 100%;
+	margin: 0 0 0.7em;
+	height: 120px;
+}
+.card ul li h2{
+	font-size: 1em;
+	color: #3e5977;
+	margin: 0.3em 0.2em;
+}
+.card ul li a{
+	line-height: 1;
+	background: #08b317;
+}
+.card ul{
+	background:  #dde1e7;
+}
+.card ul li img{
+	width: auto;
+    height: 100%;
+    display: inline-block;
+    max-height: 120px;
+    float: left;
+    margin-right: 0.4em;
+}
+.text_card{
+    vertical-align: top;
+}
+.text_card h3{
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1;
+	color: #444444;
+	vertical-align: top;
+	margin: 0;
+	text-align: left;
+}
+.text_card h2:hover{
+	color: #2b2b2b;
+
+}
+.cardview ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.cardview ul li{
+	width: 100%;
+	margin: 0.5em 0;
+	height: 120px;
+	background:white;
+	-webkit-box-shadow: 0 1px 2px 0 #a1acbd;
+    box-shadow: 0 1px 2px 0 #a1acbd;
+}
+.cardview ul li:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: 0.2s;
+}
+
+.cardview ul li img{
+	width: auto;
+    height: 100%;
+    display: inline-block;
+    max-height: 120px;
+    float: left;
+    margin-right: 0.4em;
+}
+.cardview ul li h2{
+	font-size: 1em;
+	margin: 0.5em;
+}
+.cardview ul li a{
+	text-decoration: none;
+    color: white;
+    background: #04a30f;
+}
+/*-----------------------------------------------------POST....................*/
+.blog-entrada{
+	background: #dde1e7;
+	padding-top: 2em;
+}
+.post{
+	background: white;
+}
+.lateral{
+
+	border-left: 4px solid #dde1e7;
+
+}
+/*---------------------------------------------------pagina jugos------------------*/
+
+
+/*---------------------------------------------------post entradas index-------------*/
+.post-entradas ul  {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.post-entradas ul li {
+	width: 32%;
+	float: left;
+	margin: 0.5em 0.4em;
+	background: #eee;
+}
+.post-entradas ul li img{
+	height: auto;
+    max-width: 100%;
+}
+.post-entradas h2{
+	font-size: 1.6em;
+	color: #e49c3d;
+}
+.post-categoria{
+	position: relative;
+	top: 1em;
+	color: white;
+}
+.post-categoria a{
+	color: white;
+	margin: 0 	;
+	background: #08b317;
+	padding: 0.2em;
+	position: absolute;
+	top: -8em;
+}
+.post-entradas h3{
+	text-align: center;
+	margin: 1em 0;
+	color: #736f6f;
+}
+/*----------------------------------------------------------foooter-------------*/
+.footer{
+	background: #000e1e;
+	color: #e8e8e8;
+	border-top: 10px solid #dde1e7;
+	padding-top: 1em;
+}
+.copy{
+	text-align: center;
+
+}
+.footer a{
+	color: #08b30f;
+}
+.footer a:hover{
+	color: #08b30f;
+	list-style: none;
+	text-decoration: none;
+}
+.footer img{
+	width: 10%;
+}
+/*--------------------------------------------RESPONSIVE--------------------------*/
+@media (max-width: 575px) {
+	nav li:hover ul{
+	top: 0;
+	left: 20%;
+}
+.cardview ul li {
+    width: 100%;
+	display: inline-block;
+	}
+.blog ul li{
+	width: 100%;
+}
+.contenido{
+	top: 0;
+}
+.entrada h1{
+	top: 0;
+	color: white;
+	font-size: 	1.5em;
+	margin: 0;
+	padding: 0;
+}
+.post-entradas ul li{
+	width: 100%;
+}
+}

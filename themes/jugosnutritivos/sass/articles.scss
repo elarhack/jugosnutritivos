@@ -1,0 +1,191 @@
+.backend{
+    h2{
+        margin: .5em;
+        color: var(--blue);
+    }
+    &__content{
+    
+        h4{
+            color: var(--rightCyan);
+            width: auto;
+            margin: .2em;
+            font-size: 1.3em;
+        }
+        &__new{
+        &__post{
+            background: var(--white);
+            float: left;
+            border-bottom: 2px solid var(--fondo);
+            img{
+                width: 180px;
+                height: 180px;
+                object-fit: cover;
+                border-radius: 2px 0px 0px 2px;
+                overflow: hidden;
+                margin: 0;
+                float: left;
+            }
+            &__sumary{
+                padding: .5em;
+                left: .5em;
+                top: 0;
+                position: relative;
+                .title{
+                    font-size: 1.2em;
+                    color: var(--blue);
+                    margin: 0;
+                }
+                .date{
+                    font-size: .8em;
+                    color:var(--black);
+                    background: var(--white);
+                    font-weight: 600;
+                    top: 0;
+                    padding: 0.3em;
+                    position: absolute;
+                    left: 0;
+                }
+                .view{
+                    width: 18px;
+                    height: 14px;
+                    align-items: center;
+                    margin-left: 1em;
+                    margin-top: 3px;
+                    padding: .2em;
+                }
+                span.view-count{
+                    font-size: .9em;
+                    padding: .1em;
+                    position: relative;
+                    top: -5px;
+                    color: var(--grayBlue);
+                }
+                p{
+                    color:var(--whitegray);
+                    margin: 0;
+                }
+                a{
+                    text-decoration: none;
+                    
+                }
+            }
+        }
+        }
+        &__sidebar{
+            margin: .5em 0;
+            h5{
+                color: var(--blue);
+                width: 100%;
+                font-size: 1.3em;
+                margin: 0;
+                padding: .2em 0;
+                background: var(--white);
+
+            }
+            &__post{
+                width: 100%;
+                height: auto;
+                a{
+                    text-decoration: none;
+                    color: var(--lightBlack);
+                }
+                img{
+                    width: 100%;
+                    height: 172px;
+                    float: left;
+                    object-fit: cover;
+                    border-radius: 0;
+                    overflow: hidden;
+                    }
+                &__detail{
+                    border-bottom: 2px solid #80808063;
+                    object-fit: cover;
+                    overflow: hidden;
+                    margin-bottom: 0.5em;
+                    padding: 0 .3em;
+                    background: var(--white);
+                    .title{
+                        color: var(--blue);
+                        margin: 0;
+                        font-size: 1.2em;
+                        font-weight: 700;
+                        float: left;
+                        text-align: left;
+                        text-decoration: none;
+                    }
+                    .date{
+                        font-size: .8em;
+                        color: gray;
+                        font-weight: 600;
+                        padding: 0.3em;
+                        float: left;   
+                    }
+                    .view{
+                        width: 18px;
+                        height: 14px;
+                        align-items: center;
+                        margin-left: 1em;
+                        margin-top: 3px;
+                        padding: .2em;
+                    }
+                    span.view-count{
+                        font-size: .9em;
+                        padding: .8em;
+                        color: var(--grayBlue);
+                    }
+                    a{
+                        text-decoration: none;
+                    }
+                    p{
+                        margin: .4em 0;
+                        color: var(--darkBlue);
+                        float: left;
+                    }
+                }
+            }
+        }
+    @media screen and (min-width: 768px){
+        display: grid;
+        grid-template-columns: 920px 1fr;
+        &__new{
+            &__post{
+                float: left;
+                width: 48%;
+                margin: .5em;
+                &__detail{
+                    padding: 0.3em 0.5em;
+                    h2{
+
+                    }
+                    p{
+                        color: black    ;
+                    }
+                }
+            }
+        }
+        &__sidebar{
+            &__post{
+               
+
+ 
+                img{
+                  
+                }
+                &__detail{
+                    
+                    h2{
+                    
+                    }
+                    a{
+        
+                    }
+                    
+                }
+            }
+            
+          
+        }
+    }
+}
+
+}

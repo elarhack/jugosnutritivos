@@ -1,0 +1,17 @@
+.home-title{
+    .home-title-background{
+        background-color: var(--white);
+        margin: 1em 0;
+        h1{
+            color: var(--jugo);
+            font-size: 1.5em;
+            margin: 1em;
+            
+        }
+        p{
+            color: var(--whitegray);
+            margin: 1em;
+            padding-bottom: 1em;
+        }
+    }
+}
